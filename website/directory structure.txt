@@ -1,0 +1,12 @@
+your_project_folder
+│
+├── css
+│   └── styles.css
+│
+├── images
+│   └── overlord.jpg
+│
+└── js
+    ├── data.js
+    ├── main.js
+    └── ui.js

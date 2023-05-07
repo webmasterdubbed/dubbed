@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airing This Week</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/airing-this-week.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LTE04EBPBB"></script>
+    <script src="../js/google-analytics.js"></script>
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <h1>AniDubs</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">AIRING THIS SEASON</a></li>
+            <li><a href="airing-this-week.html">AIRING THIS WEEK</a></li>
+            <li><a href="airing-today.html">AIRING TODAY</a></li>
+            <li class="menu-icon">
+                <a href="#"><span></span><span></span><span></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="week-container">
+            <div class="day-container" id="Sunday">
+                <h2>Sunday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="day-container" id="Monday">
+                <h2>Monday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="day-container" id="Tuesday">
+                <h2>Tuesday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="day-container" id="Wednesday">
+                <h2>Wednesday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="day-container" id="Thursday">
+                <h2>Thursday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="day-container" id="Friday">
+                <h2>Friday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+            <div class="day-container" id="Saturday">
+                <h2>Saturday</h2>
+                <ul class="anime-list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- The Modal -->
+    <div id="anime-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <div id="anime-details"></div>
+        </div>
+    </div>
+        
+    <script type="module" src="js/airing-this-week.js"></script>
+    <script type="module" src="../js/main.js"></script>
+
+</body>
+</html>

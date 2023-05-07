@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AniDubs</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/about-us.css">
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <h1>AniDubs</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">AIRING THIS SEASON</a></li>
+            <li><a href="airing-this-week.html">AIRING THIS WEEK</a></li>
+            <li><a href="airing-today.html">AIRING TODAY</a></li>
+            <li class="menu-icon">
+                <a href="#"><span></span><span></span><span></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="about-us">
+            <h1>About Us</h1>
+            <p>
+                Welcome to our About Us page! We are a team of anime enthusiasts who have come together to create this website. Our goal is to provide you with the latest information about your favorite anime series, including release dates, episode countdowns, and more.
+            </p>
+            <p>
+                We are constantly updating our database with new anime titles and keeping our existing information up-to-date. We hope you find our website helpful and enjoyable to use. If you have any questions or suggestions, please feel free to contact us.
+            </p>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <p>If you have any recommendations, please fill out the form below:</p>
+            <form action="https://formspree.io/f/mwkjyapd" method="POST">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+              
+                <div class="form-group">
+                  <label for="recommendation">Recommendation</label>
+                  <textarea id="recommendation" name="message" rows="5" required></textarea>
+                </div>
+              
+                <button type="submit">Send Recommendation</button>
+            </form>
+        </section>
+    </main>
+
+    <script type="module" src="../js/ui.js"></script>
+    <script type="module" src="../js/main.js"></script>
+</body>
+
+</html>
